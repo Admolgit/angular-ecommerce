@@ -59,19 +59,3 @@ ng serve
 ## Prerequisites
 
 You will need to have node and npm installed. In addition you will need a MySQL server running in order to have full functionality of the application
-
-<br/>
-
-## Environment Variables
-
-Create a folder called env in the root of the backend directory and create a development.env file.
-
-**Change DB variables to match your MySQL setup**
-
-```
-PORT=5000
-DB_HOST='localhost'
-DB_USER='root'
-DB_PASSWORD=''
-DB_NAME='myapp'
-```
