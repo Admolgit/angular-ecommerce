@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=production node app",
-    "dev": "NODE_ENV=development nodemon app"
+    "start": "node api.js && NODE_ENV=production node app",
+    "dev": "node api.js && NODE_ENV=development nodemon app"
   },
   "author": "Michael Parkadze",
   "license": "ISC",
